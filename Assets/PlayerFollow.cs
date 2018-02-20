@@ -21,6 +21,6 @@ public class PlayerFollow : MonoBehaviour
             transform.position = new Vector3(0, 0, -10);
             return;
         }
-        transform.position = new Vector3(circle.transform.position.x, 0, -10);
+        transform.position = new Vector3(circle.transform.position.x, circle.transform.position.y / 2, -10);
     }
 }
